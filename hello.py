@@ -1,4 +1,5 @@
 from sshtunnel import SSHTunnelForwarder
+from virkconfig import config
 import pymysql
 
 with SSHTunnelForwarder(
@@ -7,9 +8,15 @@ with SSHTunnelForwarder(
     ssh_pkey="~/Downloads/test.pem",
     remote_bind_address=('127.0.0.1', 3306)) as tunnel: #The server's TCP IP and port, you're tunneling
 
+    db = pymysql.connect(host=config.DATABASE_CONFIG['host'],
+                           user=config.DATABASE_CONFIG['user'],
+                           password=config.DATABASE_CONFIG['password'],
+                           db=config.DATABASE_CONFIG['dbname'],
+                           port=tunnel.local_bind_port)
 
-    db = pymysql.connect(user='twu', passwd='twu123', host='127.0.0.1',
-                       port=tunnel.local_bind_port) #Your TCP IP and port (your end of the tunnel)
+
+    #db = pymysql.connect(user='twu', passwd='twu123', host='127.0.0.1',
+                       #port=tunnel.local_bind_port) #Your TCP IP and port (your end of the tunnel)
 
     # Run sample query in the database to validate connection
     try:
