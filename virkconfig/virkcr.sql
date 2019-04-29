@@ -7,9 +7,10 @@ CREATE TABLE address (
   addressID smallint(5) unsigned NOT NULL AUTO_INCREMENT,
   address varchar(50) NOT NULL,
   address2 varchar(50) DEFAULT NULL,
-  city smallint(5) unsigned NOT NULL,
+  cityname varchar(50) DEFAULT NULL,
+  city varchar(50) DEFAULT NULL,
   postal_code varchar(10) DEFAULT NULL,
-  phone varchar(20) NOT NULL,
+  phone varchar(20) ,
   last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (addressID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -31,8 +32,15 @@ CREATE TABLE company (
   cvrnr int(10) unsigned NOT NULL,
   companyID smallint(5) unsigned NOT NULL AUTO_INCREMENT,
   companyName varchar(150) NOT NULL DEFAULT '',
+  companycode smallint(5) DEFAULT '',
+  companydesc varchar(150) DEFAULT '',
+  startdate varchar(64) DEFAULT '',
+  owners varchar(150) NOT NULL DEFAULT '',
+  addressco varchar(150) NOT NULL DEFAULT '',
+  enddate varchar(64) DEFAULT '',
+  industrydesc varchar(150) DEFAULT '',
+  industrycode smallint(5) DEFAULT '',
   addressID smallint(5) NOT NULL,
-  employmentID INT(11) NOT NULL,
   PRIMARY KEY (companyID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE person (
