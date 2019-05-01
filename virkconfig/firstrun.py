@@ -25,4 +25,4 @@ def executeScriptsFromFile(filename):
 
 cwd = os.getcwd()
 print(cwd)
-executeScriptsFromFile('./virkconfig/virkcr5.sql')
+executeScriptsFromFile('./virkconfig/virkcr.sql')

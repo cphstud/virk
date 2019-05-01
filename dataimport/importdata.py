@@ -2,39 +2,37 @@ import sys
 import json
 import glob as g
 
-sys.path.append("..")
+sys.path.insert(0,"../virkconfig")
 
-from virkconfig.initdb import connect_db
-db = connect_db('virk')
+from initdb import connect_db
 
-try:
-    # Print all the databases
-    with db.cursor() as cur:
-        cur.execute('SHOW DATABASES')
-        #cur.execute('INSERT INTO company (companyName,  cvrnr) VALUES ("test",123123123)')
-        print(cur.lastrowid)
-        cur.execute('SELECT * FROM company')
 
-        for r in cur:
-            print(r)
-finally:
-    db.commit()
+def main():
+    db = connect_db('virk')
+    files = g.glob('./apidata/*.json')
+    for file in files:
+        print(file)
+        with open(file) as json_file:
+            data = json.load(json_file)
+            
+        try:       
+            with db.cursor() as cur:
+                cur.execute("INSERT INTO address (Street,city,postal_code) \
+                    VALUES ('{}','{}','{}') ".format(data['address'],data['city'],data['zipcode']))
+                print("LAST: " + str(cur.lastrowid))
+                cur.execute("INSERT INTO company (cvrnr, companyName,addressID) VALUES ({},'{}',{}) ".format(data['vat'],data['name'],cur.lastrowid))
+                
+                #cur.execute('SELECT * FROM company')
+
+                for r in cur:
+                    print(r)
+                        
+        finally:
+            db.commit()
+            print("done")
+
+    #db.commit()
     db.close()
 
-print("YAYY!!")
-
-files = g.glob('./apidata/*json')
-
-
-for file in files:
-    with open(file) as json_file:
-        try:
-            data = json.load(json_file)
-            #print(data['name'])
-        except:
-            print("error")
-        else:
-            continue
-
-
-#cursor.lastrowid
+if __name__ == '__main__':
+    main()
