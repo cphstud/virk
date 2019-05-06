@@ -4,8 +4,8 @@ import pymysql
 DATABASE_CONFIG = {
     'host': 'localhost',
     'dbname': 'virk',
-    'user': 'twu',
-    'password': 'twu123',
+    'user': 'root',
+    'password': 'root123',
     'port': 3306
 }
 
@@ -18,3 +18,12 @@ def connect_db(dbname):
                            db=DATABASE_CONFIG['dbname'],
                            cursorclass=pymysql.cursors.DictCursor)
     return conn
+
+    '''
+    conn = pymysql.connect(host=DATABASE_CONFIG['host'],
+                           user=DATABASE_CONFIG['user'],
+                           password=DATABASE_CONFIG['password'],
+                           db=DATABASE_CONFIG['dbname'],
+                           cursorclass=pymysql.cursors.DictCursor)
+
+                           '''
