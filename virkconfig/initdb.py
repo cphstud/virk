@@ -4,8 +4,8 @@ import pymysql
 DATABASE_CONFIG = {
     'host': 'localhost',
     'dbname': 'virk',
-    'user': 'root',
-    'password': 'root123',
+    'user': 'twu',
+    'password': 'twu123',
     'port': 3306
 }
 

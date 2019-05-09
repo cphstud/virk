@@ -12,7 +12,7 @@ CREATE TABLE address (
   postal_code varchar(10) DEFAULT NULL,
   phone varchar(20) ,
   last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (addressID)
+  PRIMARY KEY (addressID, Street)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE audits (
   auditID smallint(5) unsigned NOT NULL AUTO_INCREMENT,
