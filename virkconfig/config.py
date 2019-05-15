@@ -3,5 +3,6 @@ DATABASE_CONFIG = {
     'dbname': 'virk',
     'user': 'twu',
     'password': 'twu123',
+    'charset'='utf8',
     'port': 3306
 }

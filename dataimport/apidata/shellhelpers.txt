@@ -1,0 +1,4 @@
+ls *.json | while read x; do cat $x | jq '.' > tmp.json;cp tmp.json $x;done
+cat nextrun2 | while read x; do ./cmd.sh $x $cnt; cnt=$(( cnt + 1 )); done
+cat all.txt | cut -d\. -f1 | while read x; do res=`grep  $x donelist.txt`; if [ $? -eq 1 ];then echo "NO $x";fi; done > newcandidates
+

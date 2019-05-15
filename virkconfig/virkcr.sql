@@ -53,8 +53,8 @@ CREATE TABLE person (
   PRIMARY KEY (personID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE employment (
-  employmentID int(10) unsigned NOT NULL,
-  personID int(10) unsigned NOT NULL,
+  personID int(10) unsigned NOT NULL ,
+  employmentID int(10) unsigned NOT NULL AUTO_INCREMENT,
   companyID int(10) unsigned NOT NULL,
   PRIMARY KEY (employmentID,personID,companyID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

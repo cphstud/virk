@@ -16,33 +16,46 @@ delete t1 from address t1 inner join address t2 where t1.addressID < t2.addressI
 def main():
 
     print(os.getcwd())
+    print("exep")
+    print(sys.executable)
     print("ok")
     db = connect_db('virk')
-
-    files = g.glob('./dataimport/apidata/*.json')
+    ssid = 1000
+    files = g.glob('./dataimport/apidata/ok/*.json')
 
     for file in files:
         print(file)
+
         with open(file) as json_file:
             data = json.load(json_file)
             
-        try:       
-            with db.cursor() as cur:
-                cur.execute("REPLACE INTO address (Street,city,postal_code) \
-                VALUES ('{}','{}','{}') ".format(data['address'],data['city'],data['zipcode']))
-                print("LAST: " + str(cur.lastrowid))
-                cur.execute("INSERT INTO company (cvrnr, companyName,addressID) VALUES ({},'{}',{}) ".format(data['vat'],data['name'],cur.lastrowid))
-                
-                #cur.execute('SELECT * FROM address where addressID = 180')
+            
+              
+        with db.cursor() as cur:
+            cur.execute("INSERT INTO address (Street,city,postal_code) \
+            VALUES ('{}','{}','{}') ".format(data['address'],data['city'],data['zipcode']))
+            print("LAST: " + str(cur.lastrowid))
+            cur.execute("INSERT INTO company (cvrnr, companyName,addressID) VALUES ({},'{}',{}) ".format(data['vat'],data['name'],cur.lastrowid))
+            print("compid: " + str(cur.lastrowid))
+            tmpCompid = cur.lastrowid
+            if data['owners']:
+                for person in data['owners']:
+                    ssid = ssid + 1
+                    cur.execute("INSERT INTO person (ssid, fullname, prole) VALUES ({},'{}','{}') ".format(ssid,person['name'],'owner'))
+                    tmppersid = cur.lastrowid
+                    cur.execute("INSERT INTO employment (personID, companyID) VALUES ({},{}) ".format(ssid,tmpCompid))
 
-                for r in cur:
-                    print("--")
-                    print(r)
-                    print("DONE")
-                        
-        finally:
-            db.commit()
-            print("done")
+        
+            #cur.execute('SELECT * FROM address where addressID = 180')
+
+            for r in cur:
+                print("--")
+                print(r)
+                print("DONE")
+                    
+        
+        db.commit()
+        print("done")
 
 
     #db.commit()
