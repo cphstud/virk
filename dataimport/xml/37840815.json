@@ -1,0 +1,106 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:24868367",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-BK-97-ED",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-12-31",
+              "startDato": "2016-06-17"
+            }
+          },
+          "sidstOpdateret": "2017-12-20T11:50:41.098Z",
+          "cvrNummer": 37840815,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzLzg3L2FkL2IyLzk2L2QyNGUtNGNiMy1hNmNjLTFiY2RmMTc4ZTAxOA.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzL2Q0L2JmL2YzLzkzLzIxNmYtNGM3Mi04MmFlLWQxMzY1ZDkxNjYyZA.xhtml"
+            },
+            {
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzLzA2LzE0LzZkLzZiLzlkN2MtNDA5NS1iNjc5LWMwNWNmMzQwYjA2Zg.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzLzM1Lzg4LzJlLzQxLzdhYzktNGM0Mi04NjA5LTU2ZWExNWM0OGY1MA.xml"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-28T05:13:59.966Z",
+          "offentliggoerelsesTidspunkt": "2017-12-20T11:50:40.609Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25896643",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 37840815,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-AR-79-UZ",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2017-01-01",
+              "slutDato": "2017-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-06-21T06:48:42.237Z",
+          "indlaesningsTidspunkt": "2018-06-21T06:49:46.807Z",
+          "sidstOpdateret": "2018-06-21T06:48:42.568Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzL2NkL2U0LzQ0L2RlLzc0MTktNDE0My05MjBlLThkOGUzZTdkODZkYw.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzLzUwLzdkL2ZiL2UzL2FmM2UtNGRkOC1hNWIzLTE4MzA4NzI0OWMzMg.xhtml",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzL2MwL2JiL2QzL2FiL2ExZDAtNDVlNi05MDIxLTZmOThhYjY5Zjc3OQ.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/51804873/ZG9rdW1lbnRsYWdlcjovLzAzLzlkLzU0L2NiLzllL2U0ZTQtNDk1Zi05Yzk3LTRiNjhjZTdiMGNmNg.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWQhGj9N0wkEsASkt9r_"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 3,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:24780448",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-BJ-75-JM",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2017-06-30",
+              "startDato": "2017-01-01"
+            }
+          },
+          "sidstOpdateret": "2017-12-03T15:33:44.817Z",
+          "cvrNummer": 37088250,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzdmLzM1L2NmLzRlLzhhYWItNGUwOS1hMzY3LWI2MzkyNWVmN2FlYg.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzQ4L2JlLzNmLzE1LzI2NTctNDBkYS05YWIyLWM2MTNmMzU0YTcwNg.xml"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-27T23:52:26.342Z",
+          "offentliggoerelsesTidspunkt": "2017-12-03T15:33:44.716Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:26514157",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 37088250,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-ES-42-KG",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2017-07-01",
+              "slutDato": "2018-06-30"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-12-31T11:44:42.771Z",
+          "indlaesningsTidspunkt": "2018-12-31T11:45:35.278Z",
+          "sidstOpdateret": "2018-12-31T11:44:42.915Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzc1LzM0L2VhL2M4LzNjM2UtNGM4Ny1iMTcwLWM4NWE3ZjZiYzEwMw.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzNmL2ExLzljLzljLzAzOTgtNGJhYS1hYmE3LTI2NGQyZWU5MGUyZg.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWgEFJYQet7j816DxkIa"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:24311962",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-AP-35-QP",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-12-31",
+              "startDato": "2015-09-16"
+            }
+          },
+          "sidstOpdateret": "2017-06-29T21:36:42.847Z",
+          "cvrNummer": 37088250,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzA0LzRjLzY5L2Y1LzY3NDQtNDgxNS04ZGMwLTA5ODg5MDQ5YjU2OQ.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/05288073/ZG9rdW1lbnRsYWdlcjovLzAzLzkwLzFiLzVjLzNkLzM3ZDYtNDVjZC1hZWExLTAwNmU0MDYzOGIyMw.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-29T19:21:04.852Z",
+          "offentliggoerelsesTidspunkt": "2017-06-29T21:36:42.705Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}

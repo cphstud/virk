@@ -1,0 +1,51 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:24345132",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-AP-94-QH",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-12-31",
+              "startDato": "2016-04-04"
+            }
+          },
+          "sidstOpdateret": "2017-07-07T10:39:01.260Z",
+          "cvrNummer": 37583162,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/26138573/ZG9rdW1lbnRsYWdlcjovLzAzL2U4LzI1L2I3LzQyLzY2ZDYtNDc1ZS1iMGEyLTE5YzVmOWUzYTBmMA.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/26138573/ZG9rdW1lbnRsYWdlcjovLzAzLzU2LzdmLzZlLzk1L2M1ZDctNDYwOC05N2QwLTU5OGNhZjRlYjQ1OA.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-27T11:05:59.656Z",
+          "offentliggoerelsesTidspunkt": "2017-07-07T10:39:01.108Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}

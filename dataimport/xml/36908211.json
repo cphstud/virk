@@ -1,0 +1,106 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:23147541",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X16-BG-87-YW",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-05-29",
+              "startDato": "2015-05-30"
+            }
+          },
+          "sidstOpdateret": "2016-11-12T13:50:41.977Z",
+          "cvrNummer": 36908211,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzA1LzMzL2M3LzQ4LzI3OTYtNGFhYi04ZDg4LWQ1NWY5NDk3NjE1NA.xhtml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzA2L2M0Lzc2L2M5LzkxNDktNDNkMS1iMGIyLTVhYmNjNTIyODUwZQ.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzcyLzA1L2I1L2QwL2M0MWEtNGEzYi1iNTk5LTllZTc4OTNhNjFiZA.xml"
+            },
+            {
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzVjLzlhL2U3LzM3Lzc5MDctNDIwZS1hNTBmLWEwMTMzYzUwYWVjOA.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-28T20:53:51.139Z",
+          "offentliggoerelsesTidspunkt": "2016-11-12T13:50:41.805Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:24549706",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-AX-37-LM",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2017-05-29",
+              "startDato": "2016-05-30"
+            }
+          },
+          "sidstOpdateret": "2017-10-01T19:45:42.932Z",
+          "cvrNummer": 36908211,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzEyL2NhL2I0LzgyLzIzYTAtNGU1Yi1hZDA1LWUyYWE5NGQ1MjU5ZA.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzgyLzhjLzQ4LzgzLzU0NzItNDdmOC1iYTU1LTE5NmIyMzI0YWNmNw.xhtml"
+            },
+            {
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzU0LzljLzEzLzU2LzI5NTYtNGYzYy1iNDM2LTI1MzZkODc0OTYzNA.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/11280963/ZG9rdW1lbnRsYWdlcjovLzAzLzk2LzQ4LzE2LzE3L2FiODMtNDNiZi04YzUxLTFhMTJhYWVlMjYyMQ.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-27T09:54:43.744Z",
+          "offentliggoerelsesTidspunkt": "2017-10-01T19:45:42.775Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}

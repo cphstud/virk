@@ -1,0 +1,51 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25244885",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X18-AG-77-PN",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2017-09-30",
+              "startDato": "2016-05-02"
+            }
+          },
+          "sidstOpdateret": "2018-03-28T12:31:04.545Z",
+          "cvrNummer": 37655457,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/75455673/ZG9rdW1lbnRsYWdlcjovLzAzLzFjLzAzL2NhLzVlL2ZjMDYtNDBjZS1hZGQ1LWQ4YzhiYTU1NDM1NA.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/75455673/ZG9rdW1lbnRsYWdlcjovLzAzL2NiL2FkLzY3L2JmLzZiZmUtNDliYy04NDFhLTc5YWZlMTQwZmYyNg.xml"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-04-04T11:57:46.273Z",
+          "offentliggoerelsesTidspunkt": "2018-03-28T12:31:04.399Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}

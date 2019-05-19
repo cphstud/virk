@@ -10,7 +10,7 @@ from virkconfig.initdb import connect_db
 
 
 def main():
-    csvfile="./dataimport/Risika.csv"
+    csvfile="./dataimport/RisikaAll.csv"
     print(os.getcwd())
     print("ok")
     db = connect_db('virk')
@@ -27,7 +27,7 @@ def main():
         csv_reader = csv.reader(fp, delimiter=';')
         print(csv_reader)
         for row in csv_reader:
-            cvrlist.append(row[0])
+            cvrlist.append(row[-1])
 
       
             with db.cursor() as cur:
@@ -39,13 +39,19 @@ def main():
                 if (res is not None):
                     print("ok")
                     # THIS IS NOT DONE YET
-                    #cur.execute("INSERT INTO audits (cvrnr,companyName,companyID, GrossResult, Equity, LongTermDebt) \
-                    #VALUES ('{}','{}','{}')    ")
-                    print(res)
-                    
-                    print('; '.join(row))
+                    tmpYear = '20' + row[1].split('/')[-1] 
+                    try:
+
+                        cur.execute("INSERT INTO audits (cvrnr,companyID, auditYear, GrossResult, Equity, LongTermDebt) \
+                        VALUES ({},{},{},{},{},{})".format(row[0],res['companyID'],tmpYear, row[3].replace('.',''),row[5].replace('.',''),row[7].replace('.','')))
+                        print(res)
+                        print('; '.join(row))
+                    except:
+                        print("problem with row ")
+                        print('; '.join(row))
                 else:
                     print("basd")
+                    print('; '.join(row))
                 #cur.execute('SELECT * FROM address where addressID = 180')
                 '''
                 for r in cur:
@@ -56,7 +62,7 @@ def main():
             print("doxxcne")
 
 
-    #db.commit()
+    db.commit()
     db.close()
 
 if __name__ == '__main__':

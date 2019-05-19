@@ -1,0 +1,61 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25827128",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 38456563,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-AP-87-XH",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2017-03-02",
+              "slutDato": "2017-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-06-14T13:45:42.991Z",
+          "indlaesningsTidspunkt": "2018-06-14T13:46:40.878Z",
+          "sidstOpdateret": "2018-06-14T13:45:43.386Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/36565483/ZG9rdW1lbnRsYWdlcjovLzAzL2VmL2JlLzNmL2Q5LzAwOWYtNDVjYS1iYTdjLTMzNWU3NDE3NjE5NQ.xhtml",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/36565483/ZG9rdW1lbnRsYWdlcjovLzAzL2Q1L2ExL2E1Lzc4LzJjNTYtNDcxNC1hNWZkLTRlMDhiYmFjOTc4YQ.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/36565483/ZG9rdW1lbnRsYWdlcjovLzAzLzQ1L2Y2LzI5L2E3L2E1YTYtNDI1Yy04NTUxLThhMTA4ZjYzZjI2NA.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/36565483/ZG9rdW1lbnRsYWdlcjovLzAzL2EyL2JjL2NjL2Q4LzY4N2YtNDM1NS1hMWFmLWZhNzI0ZWRmM2U1Yw.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT"
+            }
+          ],
+          "indlaesningsId": "AWP-i32K0wkEsASktvnx"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 3,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:23531275",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-AD-37-NX",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-12-31",
+              "startDato": "2016-01-01"
+            }
+          },
+          "sidstOpdateret": "2017-02-28T12:47:21.223Z",
+          "cvrNummer": 36901039,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzLzBiL2ViLzE0Lzg2LzlmNTMtNDIxZC1iMDc2LWNmMjU3MWQ2YWFlOA.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzLzU5LzFiL2Q4L2E2L2M0M2MtNDY4ZC04MGFhLWJmNjhiYzAwMjI2NA.xml"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-27T18:56:39.435Z",
+          "offentliggoerelsesTidspunkt": "2017-02-28T12:47:20.906Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:22676138",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X16-AZ-26-YC",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2015-12-31",
+              "startDato": "2015-05-22"
+            }
+          },
+          "sidstOpdateret": "2016-06-13T10:25:42.460Z",
+          "cvrNummer": 36901039,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzLzhhLzBlL2I4LzJmLzRlYTItNGYxZC05YWRiLWY2YjRmNGFlYTZkZA.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzLzgwLzkwLzFmLzcyLzJiMzQtNGNjMC05M2JmLTM1ZDViNmFjZjhkZQ.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-29T06:02:21.518Z",
+          "offentliggoerelsesTidspunkt": "2016-06-13T10:25:42.335Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25917150",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 36901039,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-AS-14-TU",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2017-01-01",
+              "slutDato": "2017-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-06-25T12:40:54.589Z",
+          "indlaesningsTidspunkt": "2018-06-25T12:41:33.534Z",
+          "sidstOpdateret": "2018-06-25T12:40:54.871Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzL2Y2LzU3LzQwLzI2L2ZmMjItNDNhNS05NmMwLTA3MTFkNDJkYjlmZQ.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/93010963/ZG9rdW1lbnRsYWdlcjovLzAzLzljL2ZjL2ZmL2U2LzMwOTgtNDc5ZC05ZmZlLTljNDFmMmM0ZDE3Mw.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWQ29hru0wkEsASkuD7O"
+        }
+      }
+    ]
+  }
+}

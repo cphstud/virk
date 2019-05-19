@@ -1,0 +1,61 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25065599",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X18-AD-77-AW",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2017-12-31",
+              "startDato": "2017-03-13"
+            }
+          },
+          "sidstOpdateret": "2018-02-16T13:33:59.601Z",
+          "cvrNummer": 38494473,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/37449483/ZG9rdW1lbnRsYWdlcjovLzAzLzI3L2MxLzEwLzA1LzcwZTEtNDlmNy1hNDY4LWQ5MDNiMDBjNzZjNQ.xml"
+            },
+            {
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/37449483/ZG9rdW1lbnRsYWdlcjovLzAzL2NjLzk4LzRlLzM2LzJkZWUtNDY2My05ZWNmLTUwNTBhOTBjMmUwZQ.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/37449483/ZG9rdW1lbnRsYWdlcjovLzAzLzg4Lzc0Lzg0LzQyLzViMGUtNDk0OC05YzhkLTlhZGEyYzZiNTcxMw.xhtml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/37449483/ZG9rdW1lbnRsYWdlcjovLzAzLzMyL2RjLzM5LzQ5L2FkZTktNDQ5Mi05M2JlLTg4YjkzYjA0Y2ZmOA.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-04-03T21:31:20.779Z",
+          "offentliggoerelsesTidspunkt": "2018-02-16T13:33:59.387Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}

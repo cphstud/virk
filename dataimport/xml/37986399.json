@@ -1,0 +1,61 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25807625",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 37986399,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-AP-02-HT",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2016-09-05",
+              "slutDato": "2017-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-06-13T12:13:37.063Z",
+          "indlaesningsTidspunkt": "2018-06-13T12:14:44.773Z",
+          "sidstOpdateret": "2018-06-13T12:13:37.410Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/99368973/ZG9rdW1lbnRsYWdlcjovLzAzL2Q1LzAzLzA2LzliLzczZGMtNGNiMy1iYzkyLWYyYzA0YmQxMTNkZA.xhtml",
+              "dokumentMimeType": "application/xhtml+xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/99368973/ZG9rdW1lbnRsYWdlcjovLzAzL2MzLzVmL2NlLzFmLzZlODgtNGY2Yy1iYzUyLWY1ZjU1ZDg0MzliYg.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/99368973/ZG9rdW1lbnRsYWdlcjovLzAzLzBkLzlmLzlhLzQ3Lzg2NzktNDFkOC04NjI0LTUyMDgzNGVmOTQ0ZQ.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "GENERALFORSAMLINGSPROTOKOLLAT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/99368973/ZG9rdW1lbnRsYWdlcjovLzAzLzZhL2JjL2E2L2IyLzhhNzAtNDhlYy1hOGM0LWIwZmIxZGY1ZDlhNw.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWP5ENGf0wkEsASktslu"
+        }
+      }
+    ]
+  }
+}

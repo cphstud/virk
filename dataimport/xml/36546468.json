@@ -1,0 +1,156 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25600121",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 36546468,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X18-AN-13-SS",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2017-01-01",
+              "slutDato": "2017-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2018-05-30T08:46:34.871Z",
+          "indlaesningsTidspunkt": "2018-05-30T08:47:41.894Z",
+          "sidstOpdateret": "2018-05-30T08:46:35.154Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzL2U0Lzc4Lzg4LzMwLzQ0YzItNDhjNS1iOGVmLThmODdjYzRhM2EzYQ.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzLzE3L2Y3LzFkLzQ2LzJjNjktNDAzNi1iZjRiLWIwNGFjMmVmMzMwNg.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWOwOkRk0wkEsASktKmf"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:22602609",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X16-AY-03-WH",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2015-12-31",
+              "startDato": "2015-02-18"
+            }
+          },
+          "sidstOpdateret": "2016-06-03T14:33:06.322Z",
+          "cvrNummer": 36546468,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzL2M4LzJiL2QxLzU5LzUzMWEtNDBiNi1iZTIwLTU0OTY3M2FjZmU5Mw.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzL2UyLzI0L2VmLzgwLzM2MTctNDdkMi05MGE0LWU1MTMxY2FiZDFiMQ.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-28T22:55:29.419Z",
+          "offentliggoerelsesTidspunkt": "2016-06-03T14:33:06.203Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:23911245",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X17-AJ-75-HV",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2016-12-31",
+              "startDato": "2016-01-01"
+            }
+          },
+          "sidstOpdateret": "2017-05-22T11:41:17.345Z",
+          "cvrNummer": 36546468,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzLzA1LzgyL2RiL2ZkLzBlZjMtNGU5Ny1iMWQxLWM0NWM3ZDdlYmUwNQ.pdf"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzL2Y4L2RiL2E3L2VkLzY4YTAtNGIwNS04MWVkLTE5MjliYmI2YzEwMA.xml"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-03-28T05:06:21.721Z",
+          "offentliggoerelsesTidspunkt": "2017-05-22T11:41:17.136Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      },
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:27114641",
+        "_score": 1,
+        "_source": {
+          "cvrNummer": 36546468,
+          "regNummer": null,
+          "omgoerelse": false,
+          "sagsNummer": "X19-BB-98-AN",
+          "offentliggoerelsestype": "regnskab",
+          "regnskab": {
+            "regnskabsperiode": {
+              "startDato": "2018-01-01",
+              "slutDato": "2018-12-31"
+            }
+          },
+          "offentliggoerelsesTidspunkt": "2019-05-10T07:51:54.293Z",
+          "indlaesningsTidspunkt": "2019-05-10T07:52:32.323Z",
+          "sidstOpdateret": "2019-05-10T07:51:54.458Z",
+          "dokumenter": [
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzL2UzLzQ4L2JiLzk2LzI4ZDctNDg4YS04Nzg3LWQ3MjdjMTgyNGY1OA.xml",
+              "dokumentMimeType": "application/xml",
+              "dokumentType": "AARSRAPPORT"
+            },
+            {
+              "dokumentUrl": "http://regnskaber.virk.dk/86464563/ZG9rdW1lbnRsYWdlcjovLzAzLzMyLzRhL2Y1LzkyL2VmMmQtNDk1NC05ZGU0LTEyNzVlODYxNjVjYg.pdf",
+              "dokumentMimeType": "application/pdf",
+              "dokumentType": "AARSRAPPORT"
+            }
+          ],
+          "indlaesningsId": "AWqguiRqRYGX6_YTHkG9"
+        }
+      }
+    ]
+  }
+}

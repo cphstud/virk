@@ -1,0 +1,51 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "indberetninger-20180424",
+        "_type": "_doc",
+        "_id": "urn:ofk:oid:25242312",
+        "_score": 1,
+        "_source": {
+          "indlaesningsId": null,
+          "sagsNummer": "X18-AG-74-FZ",
+          "regnskab": {
+            "regnskabsperiode": {
+              "slutDato": "2017-09-30",
+              "startDato": "2016-05-06"
+            }
+          },
+          "sidstOpdateret": "2018-03-28T07:41:00.605Z",
+          "cvrNummer": 37668737,
+          "dokumenter": [
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/xml",
+              "dokumentUrl": "http://regnskaber.virk.dk/73786673/ZG9rdW1lbnRsYWdlcjovLzAzLzQxLzUxLzJhLzMzLzk3MjctNDM2Yi1hZWJiLTkyYTE4YzA2NDFmZQ.xml"
+            },
+            {
+              "dokumentType": "AARSRAPPORT",
+              "dokumentMimeType": "application/pdf",
+              "dokumentUrl": "http://regnskaber.virk.dk/73786673/ZG9rdW1lbnRsYWdlcjovLzAzLzExL2U1L2FlL2JlLzdiYzQtNGM2OC05OTFiLWVkYjJhZTZhZDBiZQ.pdf"
+            }
+          ],
+          "regNummer": null,
+          "indlaesningsTidspunkt": "2018-04-04T11:45:15.447Z",
+          "offentliggoerelsesTidspunkt": "2018-03-28T07:41:00.327Z",
+          "omgoerelse": false,
+          "offentliggoerelsestype": "regnskab"
+        }
+      }
+    ]
+  }
+}
